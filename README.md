@@ -1,16 +1,110 @@
-# React + Vite
+# Monte Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive single-page portfolio website built with React and Tailwind CSS.
 
-Currently, two official plugins are available:
+![Portfolio Preview](https://github.com/user-attachments/assets/6e887629-0773-4ac6-88ad-2e47be40ff68)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## React Compiler
+- 🎨 **Modern Design** - Clean, professional interface with gradient hero section
+- 📱 **Fully Responsive** - Optimized for all screen sizes
+- 🚀 **Single Page Scroll** - Smooth scrolling navigation between sections
+- ⚡ **Fast Performance** - Built with Vite for lightning-fast development and builds
+- 🎯 **Interactive Navigation** - Fixed navbar with smooth transitions
+- 📝 **Contact Form** - Easy-to-use contact section
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Sections
 
-## Expanding the ESLint configuration
+1. **Hero** - Eye-catching introduction with call-to-action
+2. **About Me** - Professional background and passion
+3. **Skills & Technologies** - Organized technical skills (Frontend, Backend, Database, Tools)
+4. **Featured Projects** - Showcase of key projects with technology tags
+5. **Work Experience** - Professional timeline with achievements
+6. **Contact** - Contact form and social links
+7. **Footer** - Copyright and credits
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tech Stack
+
+- **React 19** - Latest React for building user interfaces
+- **Tailwind CSS 4** - Utility-first CSS framework
+- **Vite** - Next-generation frontend tooling
+- **ESLint** - Code quality and consistency
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js 18+ installed
+- npm or yarn package manager
+
+### Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/HonarchianMonte/Monte-portfolio.git
+cd Monte-portfolio
+```
+
+2. Install dependencies:
+```bash
+npm install
+```
+
+3. Start the development server:
+```bash
+npm run dev
+```
+
+4. Open your browser and visit: `http://localhost:5173`
+
+## Available Scripts
+
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run preview` - Preview production build
+- `npm run lint` - Run ESLint
+
+## Customization
+
+To customize this portfolio for your own use:
+
+1. **Update Personal Information** in `src/components/`:
+   - `Hero.jsx` - Your name and title
+   - `About.jsx` - Your background story
+   - `Skills.jsx` - Your technical skills
+   - `Projects.jsx` - Your projects
+   - `Experience.jsx` - Your work history
+   - `Contact.jsx` - Your contact details
+
+2. **Modify Colors** in `tailwind.config.js` to match your brand
+
+3. **Update Assets** in `public/` folder
+
+## Deployment
+
+Build the project for production:
+
+```bash
+npm run build
+```
+
+The optimized files will be in the `dist/` directory, ready to deploy to any static hosting service:
+
+- **Netlify**: Drag and drop the `dist` folder
+- **Vercel**: Import the repository and deploy
+- **GitHub Pages**: Use the `dist` folder with GitHub Actions
+- **Firebase Hosting**: Run `firebase deploy`
+
+## License
+
+MIT License - feel free to use this for your own portfolio!
+
+## Contact
+
+- Email: monte@example.com
+- LinkedIn: [Your LinkedIn](https://linkedin.com)
+- GitHub: [Your GitHub](https://github.com)
+
+---
+
+Built with ❤️ using React and Tailwind CSS
